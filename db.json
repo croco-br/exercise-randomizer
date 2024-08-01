@@ -1,0 +1,963 @@
+{
+  "exercises": [
+    {
+      "name": "Supino reto com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=supino+reto+com+barra",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Supino inclinado com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=supino+inclinado+com+barra",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Supino declinado com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=supino+declinando+com+barra",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Crucifixo com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=crucifixo+com+halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Flexões de braço",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=flexoes+de+braco",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Crucifixo inclinado com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=crucifixo_inclinado+com+halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Cross-over na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=crossover+na+polia",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Peck deck",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=peck+deck",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Mergulho nas paralelas",
+      "difficulty": "Alto",
+      "risk_of_injury": "Alto",
+      "video_link": "https://www.youtube.com/results?search_query=mergulho+nas+paralelas",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Pullover com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=pullover+com+halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Supino com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=supino+com_halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Supino inclinado com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=supino+inclinado+com+halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Supino declinado com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=supino+declinando+com+halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Flexões inclinadas",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=flexoes+inclinadas",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Flexões declinadas",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=flexoes+declinadas",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Crucifixo declinado com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=crucifixo+declinando+com+halters",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Crossover baixo na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=crossover+baixo+na+polia",
+      "muscular_group": "peito"
+    },
+    {
+      "name": "Puxada alta na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=puxada_alta+na+polia",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada curvada com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_curvada+com+barra",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada unilateral com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_unilateral+com+halters",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Puxada fechada na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=puxada_fechada+na+polia",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Levantamento terra",
+      "difficulty": "Alto",
+      "risk_of_injury": "Alto",
+      "video_link": "https://www.youtube.com/results?search_query=levantamento_terra",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada baixa na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_baixa+na+polia",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada curvada com pegada invertida",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_curvada+com+pegada_invertida",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada no aparelho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=remada+no+aparelho",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Barra fixa",
+      "difficulty": "Alto",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=barra_fixa",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Encolhimento com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=encolhimento+com+barra",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Puxada frontal",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=puxada_frontal",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Puxada atrás da nuca",
+      "difficulty": "Médio",
+      "risk_of_injury": "Alto",
+      "video_link": "https://www.youtube.com/results?search_query=puxada_atras+da_nuca",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada cavalinho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_cavalinho",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Pull-over na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=pull_over+na+polia",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Hiperextensão",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=hiperextensao",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada em T",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_em_t",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Pull-down",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=pull_down",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Puxada neutra na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=puxada_neutra+na+polia",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada sentada",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=remada_sentada",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Remada aberta na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_aberta+na+polia",
+      "muscular_group": "costas"
+    },
+    {
+      "name": "Agachamento livre",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=agachamento_livre",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Leg press",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=leg_press",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Afundo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=afundo",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Extensão de perna no aparelho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=extensao+de+perna+no+aparelho",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Flexão de perna no aparelho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=flexao+de+perna+no+aparelho",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Stiff",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=stiff",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Cadeira adutora",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=cadeira_adutora",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Cadeira abdutora",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=cadeira_abdutora",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Panturrilha em pé",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=panturrilha_em_pe",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Panturrilha sentado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=panturrilha_sentado",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Agachamento no smith",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=agachamento+no+smith",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Agachamento sumô",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=agachamento_sumo",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Agachamento com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=agachamento+com+halters",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Passada com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=passada+com+halters",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Afundo búlgaro",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=afundo_bulgaro",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Elevação de quadril",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao+de+quadril",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Elevação de calcanhar sentado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao+de+calcanhar_sentado",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Cadeira extensora",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=cadeira_extensora",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Cadeira flexora",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=cadeira_flexora",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Extensão de quadril no cabo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=extensao+de+quadril+no+cabo",
+      "muscular_group": "pernas"
+    },
+    {
+      "name": "Desenvolvimento com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento+com+barra",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação lateral com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_lateral+com+halters",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Desenvolvimento com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento+com+halters",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação frontal com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_frontal+com+halters",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação posterior com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_posterior+com+halters",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Desenvolvimento Arnold",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento_arnold",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação lateral na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_lateral+na+polia",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Encolhimento com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=encolhimento+com+halters",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Remada alta com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=remada_alta+com+barra",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Crucifixo inverso no aparelho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=crucifixo_inverso+no+aparelho",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Desenvolvimento militar",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento_militar",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Desenvolvimento no smith",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento+no+smith",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Desenvolvimento com pegada fechada",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento+com+pegada_fechada",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Desenvolvimento com pegada larga",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=desenvolvimento+com+pegada_larga",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação frontal com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_frontal+com+barra",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação lateral no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_lateral+no+banco_inclinado",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação lateral no banco declinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_lateral+no+banco+declinado",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação frontal na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_frontal+na+polia",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Elevação posterior na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao_posterior+na+polia",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Encolhimento com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=encolhimento+com+barra",
+      "muscular_group": "ombros"
+    },
+    {
+      "name": "Rosca direta com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_direta+com+barra",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca alternada com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_alternada+com+halters",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca concentrada",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_concentrada",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca martelo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_martelo",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca Scott",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_scott",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca inversa",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_inversa",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca no cabo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca+no+cabo",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca 21",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_21",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca no aparelho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca+no+aparelho",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca+no+banco_inclinado",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca spider",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_spider",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca martelo no cabo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_martelo+no+cabo",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca martelo no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_martelo+no+banco_inclinado",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca no banco Scott com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca+no+banco_scott+com+halters",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca martelo no banco Scott",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_martelo+no+banco_scott",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca Zottman",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_zottman",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca no cabo com barra W",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca+no+cabo+com+barra_w",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca concentrada no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_concentrada+no+banco_inclinado",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca concentrada no cabo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=rosca_concentrada+no+cabo",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Rosca no banco inclinado com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=rosca+no+banco_inclinado+com+barra",
+      "muscular_group": "biceps"
+    },
+    {
+      "name": "Tríceps francês com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_frances+com+halters",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps testa com barra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_testa+com+barra",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no pulley",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+pulley",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Mergulho no banco",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=mergulho+no+banco",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps corda no pulley",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_corda+no+pulley",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps coice com halteres",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_coice+com+halters",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no banco Scott",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+banco_scott",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps invertido no pulley",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+invertido+no+pulley",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps na polia alta",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+na+polia_alta",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Extensão de tríceps no banco",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=extensao+de+triceps+no+banco",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no banco declinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+banco+declinado",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+banco_inclinado",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps supino",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_supino",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps francês no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_frances+no+banco_inclinado",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no cabo com barra W",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+cabo+com+barra_w",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no cabo com barra reta",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+cabo+com+barra_reta",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps coice no banco inclinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_coice+no+banco_inclinado",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps coice no banco declinado",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps_coice+no+banco+declinado",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps na polia com pegada reversa",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+na+polia+com+pegada_reversa",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Tríceps no cabo com pegada neutra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=triceps+no+cabo+com+pegada_neutra",
+      "muscular_group": "triceps"
+    },
+    {
+      "name": "Abdominal supra no solo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal_supra+no+solo",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal infra",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+infra",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Prancha",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=prancha",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal oblíquo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal_obliquo",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal na bola",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+na+bola",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Elevação de pernas",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=elevacao+de+pernas",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Bicicleta no solo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=bicicleta+no+solo",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+na+polia",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal em V",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal_em_v",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com rotação no aparelho",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+rotacao+no+aparelho",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com rotação no solo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+rotacao+no+solo",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com elevação de pernas na paralela",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+elevacao+de+pernas+na+paralela",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com torção na bola",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+torcao+na+bola",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Prancha lateral",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=prancha_lateral",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com elevação de pernas na polia",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+elevacao+de+pernas+na+polia",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal infra na cadeira",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+infra+na+cadeira",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal infra com bola",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+infra+com+bola",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com rotação no cabo",
+      "difficulty": "Médio",
+      "risk_of_injury": "Baixo",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+rotacao+no+cabo",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal na prancha inclinada",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+na+prancha_inclinada",
+      "muscular_group": "abs"
+    },
+    {
+      "name": "Abdominal com roda de exercício",
+      "difficulty": "Médio",
+      "risk_of_injury": "Médio",
+      "video_link": "https://www.youtube.com/results?search_query=abdominal+com+roda+de+exercicio",
+      "muscular_group": "abs"
+    }
+  ]
+}

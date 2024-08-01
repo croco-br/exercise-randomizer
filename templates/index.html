@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionador de Treino</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <script src="static/index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Selecionador de Treino</h1>
+        <form onsubmit="submitForm(event)">
+            <div class="form-group">
+                <label><b>Grupos Musculares</b></label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="muscular-group" value="peito"> Peito</label>
+                    <label><input type="checkbox" name="muscular-group" value="costas"> Costas</label>
+                    <label><input type="checkbox" name="muscular-group" value="pernas"> Pernas</label>
+                    <label><input type="checkbox" name="muscular-group" value="ombros"> Ombros</label>
+                    <label><input type="checkbox" name="muscular-group" value="biceps"> Biceps</label>
+                    <label><input type="checkbox" name="muscular-group" value="triceps"> Triceps</label>
+                    <label><input type="checkbox" name="muscular-group" value="abdomen"> Abdômen</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="workout-type"><b>Objetivo</b></label>
+                <select id="workout-type" name="workout-type">
+                    <option value="hyper">Hipertrofia</option>
+                    <option value="resistance">Resistência</option>
+                    <option value="strength">Força</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="difficulty"><b>Dificuldade</b></label>
+                <select id="difficulty" name="difficulty">
+                    <option value="beginner">Iniciante</option>
+                    <option value="intermediate">Intermediário</option>
+                    <option value="advanced">Avançado</option>
+                </select>
+            </div>
+            <button type="submit">Selecionar Treino</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
