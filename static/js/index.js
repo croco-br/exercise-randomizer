@@ -1,26 +1,3 @@
-const fs = require('fs');
-
-// Mapas de configuração
-const levelToSeries = {
-    'beginner': 2,
-    'intermediate': 3,
-    'advanced': 4
-};
-
-const typeToReps = {
-    'hyper': "Até a falha",
-    'resistance': "12 a 20+",
-    'strength': '1 até 6',
-};
-
-const restBetweenSeries = {
-    "hyper": "30s-90s",
-    "resistance": "30s-60s",
-    "strength": "2m-5m"
-};
-
-// Ler o arquivo JSON
-const db = JSON.parse(fs.readFileSync('db.json', 'utf8'));
 
 async function submitForm(event) {
     event.preventDefault();
@@ -94,38 +71,4 @@ async function submitForm(event) {
             resultDiv.appendChild(groupDiv);
         }
     }
-}
-
-function filterBy(list, key, value) {
-    return list['exercises'].filter(exercise => exercise[key] === value);
-}
-
-function build(muscleGroups, type, level) {
-    const result = {};
-    const numSeries = levelToSeries[level];
-    const numReps = typeToReps[type];
-    const restTime = restBetweenSeries[type];
-    
-    muscleGroups.forEach(group => {
-        const exerciseList = filterBy(db, 'muscular_group', group);
-        if (exerciseList.length > 0) {
-            result[group] = {
-                "exercises": getRandomElements(exerciseList, Math.max(2, numSeries)),
-                "reps": numReps,
-                "series": numSeries,
-                "rest": restTime
-            };
-        }
-    });
-    
-    return result;
-}
-
-function getRandomElements(arr, count) {
-    const shuffled = arr.slice();
-    for (let i = arr.length - 1; i > 0; i--) {
-        const rand = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[rand]] = [shuffled[rand], shuffled[i]];
-    }
-    return shuffled.slice(0, count);
 }
