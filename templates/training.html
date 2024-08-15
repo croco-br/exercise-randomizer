@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div id="treino" class="tab-content active">
+    <form onsubmit="submitForm(event)">
+        <div class="form-group">
+            <label><b>Grupos Musculares</b></label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="muscular-group" value="peito"> Peito</label>
+                <label><input type="checkbox" name="muscular-group" value="costas"> Costas</label>
+                <label><input type="checkbox" name="muscular-group" value="pernas"> Pernas</label>
+                <label><input type="checkbox" name="muscular-group" value="ombros"> Ombros</label>
+                <label><input type="checkbox" name="muscular-group" value="biceps"> Biceps</label>
+                <label><input type="checkbox" name="muscular-group" value="triceps"> Triceps</label>
+                <label><input type="checkbox" name="muscular-group" value="abdomen"> Abdômen</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="workout-type"><b>Objetivo</b></label>
+            <select id="workout-type" name="workout-type">
+                <option value="hyper">Hipertrofia</option>
+                <option value="resistance">Resistência</option>
+                <option value="strength">Força</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="difficulty"><b>Dificuldade</b></label>
+            <select id="difficulty" name="difficulty">
+                <option value="beginner">Iniciante</option>
+                <option value="intermediate">Intermediário</option>
+                <option value="advanced">Avançado</option>
+            </select>
+        </div>
+        <button type="submit">Selecionar Treino</button>
+    </form>
+    <div id="result" class="table-container">
+    </div>
+
+    {% endblock %}

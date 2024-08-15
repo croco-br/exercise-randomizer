@@ -8,8 +8,18 @@ from engine import build
 app = Flask(__name__)
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+@app.route('/training')
+def training():
+    return render_template('training.html', active_tab='training')
+
+@app.route('/calculator')
+def calculator():
+    return render_template('calculator.html', active_tab='calculator')
+
+@app.route('/diet')
+def diet():
+    return render_template('diet.html', active_tab='diet')
+
 
 @app.route('/select_workout', methods=['POST'])
 def select_workout():

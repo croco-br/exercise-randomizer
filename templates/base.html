@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Pro</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    {% if active_tab == 'training' %}
+    <script src="{{ url_for('static', filename='js/training.js') }}" defer></script>
+    {% elif active_tab == 'calculator' %}
+    <script src="{{ url_for('static', filename='js/calculator.js') }}" defer></script>
+    {% elif active_tab == 'diet' %}
+    <script src="{{ url_for('static', filename='js/diet.js') }}" defer></script>
+    {% endif %}
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabs">
+            <div class="tab {% if active_tab == 'training' %}active{% endif %}"
+                onclick="window.location.href='{{ url_for('training') }}'">Treino</div>
+            <div class="tab {% if active_tab == 'calculator' %}active{% endif %}"
+                onclick="window.location.href='{{ url_for('calculator') }}'">Calculadora</div>
+            <div class="tab {% if active_tab == 'diet' %}active{% endif %}"
+                onclick="window.location.href='{{ url_for('diet') }}'">Dieta</div>
+        </div>
+
+        {% block content %}{% endblock %}
+    </div>
+</body>
+
+</html>

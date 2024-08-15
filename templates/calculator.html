@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="calculadora" class="tab-content">
+    <h1>Calculadora</h1>
+    <form onsubmit="calcularCalorias(event)">
+        <div class="form-group">
+            <label><b>Selecione os métodos:</b></label>
+            <div class="radio-group">
+                <label><input type="radio" name="metodo" value="harris-benedict"> Harris-Benedict (para
+                    iniciantes)</label>
+                <label><input type="radio" name="metodo" value="mifflin-st-jeor"> Mifflin-St Jeor (para
+                    avançados)</label>
+                <label><input type="radio" name="metodo" value="cunningham"> Cunningham (para
+                    atletas)</label>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label for="weight"><b>Peso (kg):</b></label>
+            <input type="number" id="weight" name="weight" step="0.1" max="200" required>
+        </div>
+        <div class="form-group">
+            <label for="height"><b>Altura (cm):</b></label>
+            <input type="number" id="height" name="height" max="255" required>
+        </div>
+        <div class="form-group">
+            <label for="age"><b>Idade:</b></label>
+            <input type="number" id="age" name="age" max="100" required>
+        </div>
+        <div class="form-group">
+            <label for="gender"><b>Gênero:</b></label>
+            <select id="gender" name="gender" required>
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+            </select>
+        </div>
+        <div class="form-group" id="lean-mass-group" style="display:none;">
+            <label for="lean-mass"><b>Massa magra (kg):</b></label>
+            <input type="number" id="lean-mass" name="lean-mass" step="0.1">
+        </div>
+        <button type="submit">Calcular Calorias</button>
+    </form>
+    <div id="calorie-result"></div>
+</div>
+{% endblock %}
