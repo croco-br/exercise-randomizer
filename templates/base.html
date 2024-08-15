@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Pro</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/reset.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tabs.css') }}">
     {% if active_tab == 'training' %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tables.css') }}">
     <script src="{{ url_for('static', filename='js/training.js') }}" defer></script>
     {% elif active_tab == 'calculator' %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/calculator.css') }}">
     <script src="{{ url_for('static', filename='js/calculator.js') }}" defer></script>
     {% elif active_tab == 'diet' %}
     <script src="{{ url_for('static', filename='js/diet.js') }}" defer></script>
@@ -20,14 +23,14 @@
     <div class="container">
         <div class="tabs">
             <div class="tab {% if active_tab == 'training' %}active{% endif %}"
-                onclick="window.location.href='{{ url_for('training') }}'">Treino</div>
+                onclick="window.location.href='/training'">Treino</div>
             <div class="tab {% if active_tab == 'calculator' %}active{% endif %}"
-                onclick="window.location.href='{{ url_for('calculator') }}'">Calculadora</div>
-            <div class="tab {% if active_tab == 'diet' %}active{% endif %}"
-                onclick="window.location.href='{{ url_for('diet') }}'">Dieta</div>
+                onclick="window.location.href='/calculator'">Calculadora</div>
+            <div class="tab {% if active_tab == 'diet' %}active{% endif %}" onclick="window.location.href='/diet'">Dieta
+            </div>
         </div>
-
-        {% block content %}{% endblock %}
+        {% block content %}
+        {% endblock %}
     </div>
 </body>
 

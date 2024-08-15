@@ -1,0 +1,46 @@
+/* Estilos básicos para as abas */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tab {
+    flex-grow: 1;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #555;
+}
+
+.tab.active {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content {
+    display: none;
+    overflow: hidden;
+}
+
+.tab-content.active {
+    display: block;
+}
