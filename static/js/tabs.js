@@ -2,7 +2,7 @@ function openTab(event, tabName) {
     // Ocultar todos os conteúdos de abas
     var tabContents = document.getElementsByClassName('tab-content');
     for (var i = 0; i < tabContents.length; i++) {
-      
+
         tabContents[i].classList.remove('active');
     }
 
