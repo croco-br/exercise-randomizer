@@ -47,7 +47,7 @@ function calcularCalorias(event) {
         }
     }
 
-    document.getElementById('calorie-result').innerHTML = `<h2>Resultados</h2>` +
+    document.getElementById('result').innerHTML = `<h2>Resultados</h2>` +
         Object.keys(results).map(method => `<p>${method}: ${results[method].toFixed(2)} calorias/dia</p>`).join('');
 }
 
@@ -61,4 +61,3 @@ document.querySelectorAll('input[name="method"]').forEach((radio) => {
         }
     });
 });
-

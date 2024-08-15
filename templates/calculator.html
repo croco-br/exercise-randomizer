@@ -5,11 +5,14 @@
     <form onsubmit="calcularCalorias(event)">
         <div class="form-group">
             <div class="radio-group-calculator">
-                <label class="radio-group-calculator-label"><input type="radio" name="method" value="harris-benedict">Harris-Benedict (para
+                <label class="radio-group-calculator-label"><input type="radio" name="method" value="harris-benedict"
+                        checked="checked">Harris-Benedict (para
                     iniciantes)</label>
-                <label class="radio-group-calculator-label"><input type="radio" name="method" value="mifflin-st-jeor">Mifflin-St Jeor (para
+                <label class="radio-group-calculator-label"><input type="radio" name="method"
+                        value="mifflin-st-jeor">Mifflin-St Jeor (para
                     avançados)</label>
-                <label class="radio-group-calculator-label"><input type="radio" name="method" value="cunningham">Cunningham (para
+                <label class="radio-group-calculator-label"><input type="radio" name="method"
+                        value="cunningham">Cunningham (para
                     atletas)</label>
             </div>
 
@@ -39,8 +42,8 @@
             </select>
         </div>
 
-        <button type="submit">Calcular Calorias</button>
+        <button type="submit">Calcular</button>
     </form>
-    <div id="calorie-result"></div>
+    <div id="result"></div>
 </div>
 {% endblock %}

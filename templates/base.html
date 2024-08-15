@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/calculator.css') }}">
     <script src="{{ url_for('static', filename='js/calculator.js') }}" defer></script>
     {% elif active_tab == 'diet' %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/diet.css') }}">
     <script src="{{ url_for('static', filename='js/diet.js') }}" defer></script>
     {% endif %}
 </head>
@@ -25,7 +26,7 @@
             <div class="tab {% if active_tab == 'training' %}active{% endif %}"
                 onclick="window.location.href='/training'">Treino</div>
             <div class="tab {% if active_tab == 'calculator' %}active{% endif %}"
-                onclick="window.location.href='/calculator'">Calculadora</div>
+                onclick="window.location.href='/calculator'">Gasto Energético</div>
             <div class="tab {% if active_tab == 'diet' %}active{% endif %}" onclick="window.location.href='/diet'">Dieta
             </div>
         </div>
