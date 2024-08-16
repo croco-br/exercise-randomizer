@@ -33,7 +33,6 @@ docker-compose==1.29.2
 dockerpty==0.4.1
 docopt==0.6.2
 dotenv-cli==3.2.0
-e2e-test-utils @ git+ssh://git@github.com/JOKR-Services/e2e-test-utils.git@9d8b8a19d00efe00afc70f0e1be938239b692472
 executing==2.0.1
 firebase-admin==6.0.1
 Flask==3.0.3
