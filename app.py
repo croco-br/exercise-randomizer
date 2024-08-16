@@ -32,4 +32,4 @@ def select_workout():
     return jsonify(workout_plan)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

@@ -1,5 +1,4 @@
-Corrigir palheta de cores
-Testar bordas arrendondadas
+
 Otimizar a tela de macros e gasto energético (verificar se dá para juntar as duas em uma)
 Alinhamento dos radio button na tela de dieta
 Hospedagem
