@@ -1,5 +1,4 @@
 
 Otimizar a tela de macros e gasto energético (verificar se dá para juntar as duas em uma)
 Alinhamento dos radio button na tela de dieta
-Hospedagem
 Adicionar infos adicionais (ex: gasto enérgetico não contempla nivel de atividade, etc)
