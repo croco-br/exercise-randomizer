@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #000;
-    color: #fff;
+    background-color: #0B1D51; /* Deep Navy Blue */
+    color: #F5F5F5; /* Off-white for text */
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,22 +10,20 @@ body {
 }
 
 .container {
-    background-color: #1c1c1c;
+    background-color: #1F2937; /* Charcoal Gray for a modern look */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Slightly darker shadow for depth */
     width: 100%;
     max-width: 800px;
     text-align: center;
     box-sizing: border-box;
-    /* Garante que padding seja incluído na largura */
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 20px;
-    color: #ffcc00;
-    /* Dourado para dar um toque premium */
+    color: #FFD700; /* Bright Gold for a luxurious touch */
 }
 
 .form-group {
@@ -35,7 +33,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 10px;
-    color: #fff;
+    color: #F5F5F5; /* Off-white for text */
     font-weight: bold;
     padding-top: 5px;
 }
@@ -54,9 +52,12 @@ label {
 }
 
 input {
-    background-color: #333;
-    color: #fff;
-    
+    background-color: #333; /* Darker input background */
+    color: #F5F5F5; /* Off-white text color */
+    border: 1px solid #FFD700; /* Gold border for premium feel */
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
 }
 
 input[type="checkbox"] {
@@ -66,19 +67,18 @@ input[type="checkbox"] {
 select {
     width: 100%;
     padding: 10px;
-    border: none;
+    border: 1px solid #FFD700; /* Gold border for premium feel */
     border-radius: 5px;
     background-color: #333;
-    color: #fff;
+    color: #F5F5F5;
     font-size: 16px;
     outline: none;
     box-sizing: border-box;
-    /* Garante que padding seja incluído na largura */
 }
 
 button {
-    background-color: #ffcc00;
-    color: #000;
+    background-color: #FFD700; /* Bright Gold */
+    color: #0B1D51; /* Deep Navy for contrast */
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -90,19 +90,18 @@ button {
 }
 
 button:hover {
-    background-color: #e6b800;
+    background-color: #FFC107; /* Slightly lighter gold on hover */
 }
 
 #result {
     margin-top: 20px;
-    color: #ffcc00;
+    color: #FFD700;
     font-size: 18px;
 }
 
 .radio-group {
     display: flex;
     flex-direction: column;
-
 }
 
 .radio-label {
@@ -114,7 +113,7 @@ button:hover {
 /* Responsividade */
 @media (max-width: 600px) {
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     button {
