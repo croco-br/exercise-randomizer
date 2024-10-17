@@ -8,9 +8,9 @@ Esse repositório é um website com uma solução completa que calcula exercicio
 # Estrutura do Diretório
 O repositório contém os seguintes arquivos e diretórios principais:
 
-static: arquivos css e js
-templates: arquivos html
-root: arquivos python
+- static: arquivos css e js
+- templates: arquivos html
+- arquivos python ficam na raiz do projeto
 
 # Tecnologias utilizadas
 Python
